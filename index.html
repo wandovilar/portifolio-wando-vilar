@@ -17,69 +17,110 @@
     <header>
       <nav class="menu">
         <h1>DevVilar</h1>
-        <a href="#">Home</a>
-        <a href="#">Sobre</a>
-        <a href="#">Skill</a>
-        <a href="#">Contato</a>
+        <a href="#home">Home</a>
+        <a href="#skill">Skill</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
       </nav>
     </header>
     <main>
       <!-- Aprensentação -->
-      <container class="apresentacao">
-        <section class="container-apresentacao">
-          <h1>
-            <span>Full-Stack </span>
-            <span class="devoloper">Devoloper</span>
-          </h1>
-          <p class="descricao-principal">
-            Construindo experiências digitais que unem criatividade e
-            tecnologia.
-          </p>
-          <p class="descricao-secundaria">
-            Especializado em desenvolvimento web moderno, performance e
-            usabilidade.
-          </p>
-          <p class="subtitulo-tecnologias">
-            Proficiente em HTML5 e CSS3, JavaScript (ES6+) e no desenvolvimento
-            de interfaces interativas e responsivas.
-          </p>
-        </section>
+      <div class="apresentacao" id="home">
+        <div class="container">
+          <section class="container-apresentacao">
+            <h1>
+              <span>Full-Stack </span>
+              <span class="developer">Developer</span>
+            </h1>
+            <p class="descricao-principal">
+              Construindo experiências digitais que unem criatividade e
+              tecnologia.
+            </p>
+            <p class="descricao-secundaria">
+              Especializado em desenvolvimento web moderno, performance e
+              usabilidade.
+            </p>
+            <p class="subtitulo-tecnologias">
+              Proficiente em HTML5 e CSS3, JavaScript (ES6+) e no
+              desenvolvimento de interfaces interativas e responsivas.
+            </p>
+          </section>
 
-        <div class="foto-perfil">
-          <img src="/img/foto-wando.png" alt="Foto de perfil do Wando Vilar" />
+          <div class="foto-perfil">
+            <img
+              src="/img/foto-wando.png"
+              alt="Foto de perfil do Wando Vilar"
+            />
+          </div>
         </div>
-      </container>
+      </div>
 
       <!-- Skill -->
 
       <h2>Habilidades Técnicas</h2>
-      <container class="container-skill">
-        <section class="skill">
-          <i class="fa-solid fa-code"></i>
-          <div class="title"><strong>Front-end Develop</strong></div>
-          <p>React, HTML5, CSS3, JavaScript</p>
-        </section>
+      <div class="container" id="skill">
+        <div class="container-skill">
+          <section class="skill">
+            <i class="fa-solid fa-code"></i>
+            <div class="title"><strong>Front-end Develop</strong></div>
+            <p>React, HTML5, CSS3, JavaScript</p>
+          </section>
 
-        <section class="skill">
-          <i class="fa-solid fa-database"></i>
-          <div class="title"><strong>Back-End</strong></div>
-          <p>Node.js, Python, MongoDB, MySQL</p>
-        </section>
+          <section class="skill">
+            <i class="fa-solid fa-database"></i>
+            <div class="title"><strong>Back-End</strong></div>
+            <p>Node.js, Python, MongoDB, MySQL</p>
+          </section>
 
-        <section class="skill">
-          <i class="fa-solid fa-chart-bar"></i>
-          <div class="title">
-            <strong>Modelagem e Visualização de Dados</strong>
-          </div>
-          <p>Power BI (DAX, ETL), Excel Avançado</p>
-        </section>
+          <section class="skill">
+            <i class="fa-solid fa-chart-bar"></i>
+            <div class="title">
+              <strong>Modelagem e Visualização de Dados</strong>
+            </div>
+            <p>Power BI (DAX, ETL), Excel Avançado</p>
+          </section>
 
-        <section class="skill">
-          <i class="fa-solid fa-paint-brush"></i>
-          <div class="title"><strong>UI/UX</strong></div>
-          <p>Figma</p>
-        </section>
-      </container>
+          <section class="skill">
+            <i class="fa-solid fa-paint-brush"></i>
+            <div class="title"><strong>UI/UX</strong></div>
+            <p>Figma</p>
+          </section>
+        </div>
+      </div>
+
+      <h2>Sobre</h2>
+      <div class="container">
+        <div class="container-sobre" id="sobre">
+          <section class="sobre">
+            <p>
+              Sou <strong>Wando Vilar</strong> e sou de
+              <strong>São Paulo - Capital</strong>. Atualmente curso
+              <strong>Análise e Desenvolvimento de Sistemas</strong> e venho me
+              <strong>especializando em Desenvolvimento Full Stack</strong>, com
+              prática no desenvolvimento de aplicações web e na integração entre
+              <strong>front-end, back-end e dados</strong>. <br /><br />
+              Possuo experiência prática na área de dados, atuando como
+              <strong>Analista de Dados</strong> desde a etapa de
+              <strong
+                >tratamento, organização e modelagem das informações</strong
+              >
+              até a <strong>criação de dashboards interativos</strong> para
+              apoio à tomada de decisão. Tenho vivência com
+              <strong>análise e visualização de dados</strong>, utilizando
+              ferramentas como
+              <strong>Power BI, Excel avançado e processos de ETL</strong>, além
+              de conhecimentos em <strong>SQL e Python</strong> para manipulação
+              e automação de dados. <br /><br />
+              Meu foco é evoluir na área de <strong>Full Stack</strong>, unindo
+              programação e análise de dados para construir
+              <strong
+                >soluções eficientes, escaláveis e baseadas em informações
+                reais.</strong
+              >
+            </p>
+          </section>
+        </div>
+      </div>
     </main>
   </body>
 </html>
