@@ -232,9 +232,7 @@ h2 {
   background: linear-gradient(135deg, #89ffc2, #29ab87);
   color: #050505;
 
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .download-cv button:hover {
@@ -245,7 +243,6 @@ h2 {
 .download-cv button:active {
   transform: translateY(0);
 }
-
 
 /* COntato */
 .container-contato {

@@ -25,23 +25,27 @@ Este portfólio representa minha jornada de **aprendizado contínuo** 📚 e apl
 ## 🛠️ Tecnologias & Habilidades
 
 ### 💻 Front-End
-- 🌐 HTML5  
-- 🎨 CSS3  
-- ⚙️ JavaScript (ES6+)  
-- ⚛️ React  
+
+- 🌐 HTML5
+- 🎨 CSS3
+- ⚙️ JavaScript (ES6+)
+- ⚛️ React
 
 ### 🔧 Back-End
-- 🟢 Node.js  
-- 🐍 Python  
-- 🍃 MongoDB  
-- 🐬 MySQL  
+
+- 🟢 Node.js
+- 🐍 Python
+- 🍃 MongoDB
+- 🐬 MySQL
 
 ### 📊 Dados & BI
-- 📈 Power BI (DAX, ETL)  
-- 📑 Excel Avançado  
+
+- 📈 Power BI (DAX, ETL)
+- 📑 Excel Avançado
 
 ### 🎨 UI / UX
-- 🖌️ Figma  
+
+- 🖌️ Figma
 
 ---
 
@@ -49,11 +53,11 @@ Este portfólio representa minha jornada de **aprendizado contínuo** 📚 e apl
 
 O portfólio foi desenvolvido utilizando **HTML5 e CSS3**, com foco em:
 
-- ✅ Layout moderno  
-- 📱 Design responsivo  
-- 🧱 Estrutura organizada  
-- ⚡ Performance e usabilidade  
-- 📌 Boas práticas de desenvolvimento web  
+- ✅ Layout moderno
+- 📱 Design responsivo
+- 🧱 Estrutura organizada
+- ⚡ Performance e usabilidade
+- 📌 Boas práticas de desenvolvimento web
 
 Ícones utilizados: **Font Awesome** ⭐
 
@@ -62,11 +66,13 @@ O portfólio foi desenvolvido utilizando **HTML5 e CSS3**, com foco em:
 ## 🚀 Como visualizar o projeto localmente
 
 📥 Clone o repositório:
+
 ```bash
 git clone https://github.com/wandovilar/portifolio-wando-vilar.git
 ```
 
 📂 Acesse a pasta do projeto:
+
 ```bash
 cd portifolio-wando-vilar
 ```
@@ -80,16 +86,19 @@ cd portifolio-wando-vilar
 O portfólio está em constante evolução. Próximas etapas planejadas:
 
 ### 🔹 v2 — Projetos
+
 - Seção de projetos em destaque
 - Cards com descrição, tecnologias e links
 - Integração direta com GitHub (processo completo)
 
 ### 🔹 v3 — JavaScript
+
 - Validações avançadas de formulário
 - Melhorias de UX
 - Interações e feedbacks visuais
 
 ### 🔹 v4 — Backend & Contato
+
 - Envio real de mensagens
 - Integração com banco de dados ou serviço de email
 - Finalização completa do Footer
@@ -98,9 +107,9 @@ O portfólio está em constante evolução. Próximas etapas planejadas:
 
 ## 📬 Contato & Redes
 
-- 🐙 GitHub: https://github.com/wandovilar  
-- 💼 LinkedIn: https://www.linkedin.com/in/wandovilar  
-- 📧 Email: wandovilar@outlook.com  
+- 🐙 GitHub: https://github.com/wandovilar
+- 💼 LinkedIn: https://www.linkedin.com/in/wandovilar
+- 📧 Email: wandovilar@outlook.com
 
 ---
 
