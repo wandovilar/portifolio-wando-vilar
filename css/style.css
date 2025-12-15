@@ -207,9 +207,7 @@ h2 {
   color: #89ffc2;
 }
 
-/*
-   RESPONSIVO - MOBILE
- */
+/* RESPONSIVO - MOBILE */
 
 @media (max-width: 768px) {
   /* HEADER */
