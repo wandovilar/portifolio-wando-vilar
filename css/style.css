@@ -207,6 +207,141 @@ h2 {
   color: #89ffc2;
 }
 
+/* Butão Download */
+.download-cv {
+  margin-top: 30px;
+}
+
+.download-cv a {
+  text-decoration: none;
+}
+
+.download-cv button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 14px 30px;
+  font-size: 16px;
+  font-weight: 600;
+
+  border-radius: 14px;
+  cursor: pointer;
+
+  border: 1px solid #29ab87;
+  background: linear-gradient(135deg, #89ffc2, #29ab87);
+  color: #050505;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.download-cv button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(41, 171, 135, 0.4);
+}
+
+.download-cv button:active {
+  transform: translateY(0);
+}
+
+
+/* COntato */
+.container-contato {
+  max-width: 900px;
+  margin: 80px auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px;
+  margin: 80px auto;
+  padding: 15px;
+  align-items: flex-start;
+  gap: 15px;
+  background-color: #0c0a0ad3;
+  border-radius: 15px;
+  align-items: flex-start;
+}
+
+form label {
+  font-size: 20px;
+  color: #ddd;
+}
+
+form input {
+  max-width: 200px;
+  height: 15px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+form textarea {
+  width: 100%;
+  max-width: 600px;
+  min-height: 120px;
+  max-height: 280px;
+  resize: none;
+  overflow-x: hidden;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+/* Botões */
+
+.button {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Base dos botões */
+.button button {
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+
+  background: transparent;
+  border: 1px solid #444;
+  color: #fff;
+
+  transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease,
+    transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Botão LIMPAR */
+.button button[type="reset"] {
+  border-color: #555;
+  color: #ccc;
+}
+
+.button button[type="reset"]:hover {
+  background-color: #222;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* Botão ENVIAR (destaque) */
+.button button[type="submit"] {
+  border-color: #29ab87;
+  color: #050505;
+  background: linear-gradient(135deg, #89ffc2, #29ab87);
+}
+
+.button button[type="submit"]:hover {
+  box-shadow: 0 8px 25px rgba(41, 171, 135, 0.4);
+  transform: translateY(-2px);
+}
+
+/* Clique */
+.button button:active {
+  transform: translateY(0);
+}
+
 /* RESPONSIVO - MOBILE */
 
 @media (max-width: 768px) {
