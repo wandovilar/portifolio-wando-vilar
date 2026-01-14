@@ -66,7 +66,8 @@ body {
 
 #skill,
 #sobre,
-#home {
+#home,
+#projeto {
   scroll-margin-top: 250px; /* altura do menu */
 }
 
@@ -244,7 +245,118 @@ h2 {
   transform: translateY(0);
 }
 
-/* COntato */
+/* Projetos */
+
+.projetos-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.projetos-carrossel {
+  width: 60%;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 250px;
+  margin: 80px auto;
+}
+
+.card-projeto {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-width: 400px;
+  margin: 80px auto;
+  border-radius: 50px;
+  flex-shrink: 0;
+  background-color: #0c0a0ad3;
+  border: 1px solid #29ab87;
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+.card-projeto h3 {
+  margin-top: 12px;
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+.card-projeto p {
+  color: #ddd;
+  font-size: 15px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.card-projeto img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  margin: 10px auto;
+  border-radius: 30px;
+}
+
+.projetos-carrossel::-webkit-scrollbar {
+  display: none;
+}
+
+/* Setas do carrossel */
+.esquerda,
+.direita {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #29ab87;
+
+  background: rgba(12, 10, 10, 0.8);
+  color: #d0ffe7;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+/* Ícone */
+.esquerda i,
+.direita i {
+  font-size: 18px;
+}
+
+/* Hover */
+.esquerda:hover,
+.direita:hover {
+  transform: scale(1.08);
+  background: linear-gradient(135deg, #89ffc2, #29ab87);
+  color: #050505;
+  box-shadow: 0 10px 25px rgba(41, 171, 135, 0.4);
+}
+
+/* Clique */
+.esquerda:active,
+.direita:active {
+  transform: scale(0.98);
+}
+
+.projetos-wrapper {
+  position: relative;
+}
+
+.esquerda {
+  margin-left: 10px;
+}
+
+.direita {
+  margin-right: 10px;
+}
+
+/* Contato */
 .container-contato {
   max-width: 900px;
   margin: 80px auto;
@@ -343,7 +455,6 @@ form textarea {
    ========================= */
 
 @media (max-width: 768px) {
-
   /* HEADER */
   .menu {
     justify-content: center;
