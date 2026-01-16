@@ -47,8 +47,11 @@ body {
   border-radius: 12px;
 
   background: transparent;
-  transition: color 0.3s ease, border-color 0.3s ease,
-    background-color 0.3s ease, transform 0.2s ease;
+  transition:
+    color 0.3s ease,
+    border-color 0.3s ease,
+    background-color 0.3s ease,
+    transform 0.2s ease;
 }
 
 /* Hover */
@@ -233,7 +236,9 @@ h2 {
   background: linear-gradient(135deg, #89ffc2, #29ab87);
   color: #050505;
 
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .download-cv button:hover {
@@ -304,8 +309,6 @@ h2 {
   display: none;
 }
 
-
-
 /* Setas do carrossel */
 
 .esquerda,
@@ -323,7 +326,10 @@ h2 {
   justify-content: center;
 
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
 }
 
 /* Ícone */
@@ -378,7 +384,10 @@ h2 {
   color: #050505;
   background: linear-gradient(135deg, #89ffc2, #29ab87);
 
-  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    opacity 0.2s ease;
 }
 
 .botoes-projeto a:hover {
@@ -391,7 +400,6 @@ h2 {
   transform: translateY(0);
   box-shadow: none;
 }
-
 
 /* Contato */
 .container-contato {
@@ -455,8 +463,12 @@ form textarea {
   border: 1px solid #444;
   color: #fff;
 
-  transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease,
-    transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    background 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 /* Botão LIMPAR */
@@ -588,64 +600,48 @@ form textarea {
   .button button {
     width: 100%;
   }
-  
+
   .projetos-wrapper {
-    gap: 8px;
+    gap: 10px;
     justify-content: center;
   }
-  
-  /* Carrossel ocupa mais espaço no celular */
+
   .projetos-carrossel {
     width: 100%;
+    padding: 0 10px;
     gap: 15px;
-    margin: 30px auto;
-    padding: 10px;
   }
-  
-  /* Card menor e mais “mobile friendly” */
+
   .card-projeto {
-    min-width: 260px;
-    border-radius: 25px;
-    padding: 12px;
+    min-width: 90%;
+    max-width: 90%;
+    margin: 0 auto;
   }
-  
-  /* Imagem menor */
+
   .card-projeto img {
     width: 100%;
     height: 180px;
-    border-radius: 18px;
+    object-fit: cover;
   }
-  
-  /* Texto menor */
-  .card-projeto h3 {
-    font-size: 18px;
-  }
-  
-  .card-projeto p {
-    font-size: 14px;
-  }
-  
-  /* Botões de projeto em coluna no mobile */
+
   .botoes-projeto {
-    flex-direction: column;
-    width: 100%;
+    justify-content: center;
+    gap: 10px;
   }
-  
+
   .botoes-projeto a {
+    min-width: 110px;
+    width: auto;
     text-align: center;
-    width: 100%;
   }
-  
-  /* Setas menores no celular */
+
   .esquerda,
   .direita {
     width: 40px;
     height: 40px;
   }
-  
-  .esquerda i,
-  .direita i {
-    font-size: 14px;
-  }
-  
+}
+
+.projetos-carrossel {
+  -webkit-overflow-scrolling: touch;
 }
