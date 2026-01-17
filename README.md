@@ -87,9 +87,12 @@ O portfólio está em constante evolução. Próximas etapas planejadas:
 
 ### 🔹 v2 — Projetos
 
-- Seção de projetos em destaque
-- Cards com descrição, tecnologias e links
-- Integração direta com GitHub (processo completo)
+- Seção de projetos em destaque <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/3c8ad6cf-2230-47b3-ad1e-32b4b4b12687" />
+
+- Cards com descrição, tecnologias e links <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/00babd44-f023-48d0-9d5a-e7a33519241d" />
+
+- Integração direta com GitHub <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/90d49ad7-725b-4226-8f87-b28e0939fe52" />
+
 
 ### 🔹 v3 — JavaScript
 
